@@ -1,5 +1,5 @@
 Proceso calculadora
-	Escribir "Bienvenid@ a la calculdora de Sebastián"
+	Escribir "Bienvenid@ a la calculdora de Diego"
 	Escribir "Para suma escriba:"
 	Escribir "1 para suma"
 	Escribir "2 para resta"
@@ -9,9 +9,9 @@ Proceso calculadora
 	Leer operacion
 	//aqui se verifica que el usuario ingreso una funcion valida//
 	si operacion>0 y operacion<5 Entonces
-		Escribir "ingrese el primer número"
+		Escribir "ingrese el primer nÃºmero"
 		Leer numero1
-		Escribir "Ingrese el segundo número"
+		Escribir "Ingrese el segundo nÃºmero"
 		Leer numero2 
 		Si operacion=1 Entonces 
 			Escribir "el resultado de la suma es"
@@ -22,15 +22,15 @@ Proceso calculadora
 			resultado=numero1-numero2
 		FinSi
 		Si operacion=3 Entonces
-			Escribir "el resulado de la multiplicación"
+			Escribir "el resulado de la multiplicaciÃ³n"
 			resultado=numero1*numero2
 		FinSi
 		Si operacion=4 Entonces
-			Escribir "el resultado de la división es"
+			Escribir "el resultado de la divisiÃ³n es"
 			resultado=numero1/numero2
 		FinSi
 		Escribir resultado
 	Sino
-		Escribir "esa no es una operación válida"
+		Escribir "esa no es una operaciÃ³n vÃ¡lida"
 	FinSi
 FinProceso
